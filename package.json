@@ -1,0 +1,37 @@
+{
+  "name": "copy-open-tabs",
+  "displayName": "Copy Open Tabs",
+  "description": "Click a button to copy all open tabs with relative path headers.",
+  "version": "0.0.1",
+  "publisher": "denuoweb-llc",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "copyOpenTabs.execute",
+        "title": "Copy Open Tabs"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p .",
+    "watch": "tsc -watch -p .",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.50.0",
+    "typescript": "^4.0.0",
+    "vscode-test": "^1.4.0"
+  }
+}
