@@ -3,10 +3,15 @@
   "displayName": "Copy Open Tabs",
   "description": "Click a button to copy all open tabs with relative path headers.",
   "version": "0.0.1",
-  "publisher": "denuoweb-llc",
+  "publisher": "denuoweb",
+  "license": "MIT",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/denuoweb/copy-open-tabs.git"
   },
   "categories": [
     "Other"
