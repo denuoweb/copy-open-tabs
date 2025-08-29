@@ -2,6 +2,8 @@
 
 A simple VS Code extension that lets you click a status‐bar button to copy all open tabs into your clipboard, each preceded by a relative‐path header.
 
+![App screenshot](./screenshot.png)
+
 ## Features
 
 - Status‐bar button with a clipboard icon  
